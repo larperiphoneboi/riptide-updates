@@ -1,12 +1,12 @@
 {
   "version": "1.0.30",
+  "build": 130,
   "notes": [
-    "The update dialog now lives inside Riptide \u2014 no more macOS alert.",
-    "Script Hub is live: search ScriptBlox with Keyless / Key / Verified filters.",
+    "Update notices now live inside Riptide, and only appear for genuinely new releases.",
+    "Riptide now reports its real version, so it stops claiming an update after you already installed it.",
+    "Script Hub searches ScriptBlox live, with Keyless / Key / Verified filters.",
     "Rscripts added as a second script source (free API key in Settings).",
-    "Safety notice added to the Script Hub.",
-    "In-app update notices appear automatically when this file changes.",
-    "Re-running the installer updates Riptide in place."
+    "Safety notice added to the Script Hub."
   ],
   "installer_url": "https://raw.githubusercontent.com/cocoBEAMS/riptide-installer/main/install.sh",
   "roblox_pin": "0.738.0.7381393"
