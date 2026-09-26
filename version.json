@@ -8,6 +8,6 @@
     "Rscripts added as a second script source (free API key in Settings).",
     "Safety notice added to the Script Hub."
   ],
-  "installer_url": "https://raw.githubusercontent.com/cocoBEAMS/riptide-installer/main/install.sh",
+  "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
   "roblox_pin": "0.738.0.7381393"
 }
