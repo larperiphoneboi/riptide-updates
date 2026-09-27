@@ -1,12 +1,11 @@
 {
-  "version": "1.0.30",
-  "build": 130,
+  "version": "1.0.31",
+  "build": 131,
   "notes": [
-    "Update notices now live inside Riptide, and only appear for genuinely new releases.",
-    "Riptide now reports its real version, so it stops claiming an update after you already installed it.",
-    "Script Hub searches ScriptBlox live, with Keyless / Key / Verified filters.",
-    "Rscripts added as a second script source (free API key in Settings).",
-    "Safety notice added to the Script Hub."
+    "Riptide is now the first macOS executor with an AI MCP server.",
+    "In-app Riptide AI page: ask for a script in plain English, get real Luau written against the Roblox API docs, insert & run.",
+    "External MCP clients (Claude Desktop, Cursor, Claude Code, OpenCode) connect from Settings \u2192 AI & MCP \u2014 one click writes the config.",
+    "MCP tools shipped: search_api, read_api, executor_surface, workspace_read, workspace_write, run_luau."
   ],
   "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
   "roblox_pin": "0.738.0.7381393"
