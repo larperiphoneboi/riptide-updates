@@ -1,10 +1,10 @@
 {
   "version": "1.0.31",
-  "build": 131,
+  "build": 132,
   "notes": [
-    "Riptide is now the first macOS executor with an AI MCP server.",
+    "Riptide is the first macOS executor with an AI MCP server.",
+    "New build \u2014 Settings \u2192 AI & MCP now connects Claude Desktop, Claude Code, Cursor, Codex, OpenCode, Windsurf and Antigravity in one click, each with its own icon.",
     "In-app Riptide AI page: ask for a script in plain English, get real Luau written against the Roblox API docs, insert & run.",
-    "External MCP clients (Claude Desktop, Cursor, Claude Code, OpenCode) connect from Settings \u2192 AI & MCP \u2014 one click writes the config.",
     "MCP tools shipped: search_api, read_api, executor_surface, workspace_read, workspace_write, run_luau."
   ],
   "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
