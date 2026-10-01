@@ -1,12 +1,11 @@
 {
-  "version": "1.0.31",
-  "build": 132,
+  "version": "1.0.32",
+  "build": 133,
   "notes": [
-    "Riptide is the first macOS executor with an AI MCP server.",
-    "New build \u2014 Settings \u2192 AI & MCP now connects Claude Desktop, Claude Code, Cursor, Codex, OpenCode, Windsurf and Antigravity in one click, each with its own icon.",
-    "In-app Riptide AI page: ask for a script in plain English, get real Luau written against the Roblox API docs, insert & run.",
-    "MCP tools shipped: search_api, read_api, executor_surface, workspace_read, workspace_write, run_luau."
+    "Roblox 0.741.0.7411056 — the whole offset set was re-derived against this build, so detection, the executor surface and script execution are current again.",
+    "Installer pins Roblox 0.741.0.7411056. Re-run the install script to move an existing install onto the supported client.",
+    "This release is what the updater is now advertising; the 0.738 pin in the old manifest is gone."
   ],
   "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
-  "roblox_pin": "0.738.0.7381393"
+  "roblox_pin": "0.741.0.7411056"
 }
