@@ -1,10 +1,11 @@
 {
-  "version": "1.0.32",
-  "build": 133,
+  "version": "1.0.33",
+  "build": 134,
   "notes": [
-    "Roblox 0.741.0.7411056 — the whole offset set was re-derived against this build, so detection, the executor surface and script execution are current again.",
-    "Installer pins Roblox 0.741.0.7411056. Re-run the install script to move an existing install onto the supported client.",
-    "This release is what the updater is now advertising; the 0.738 pin in the old manifest is gone."
+    "Fix: joining a game no longer crashes Roblox. The load-clock guard was reading a zero offset instead of testing it, so every script load took a null dereference the moment a place loaded.",
+    "Fix: the executor now stands itself down cleanly when Roblox is not the build its offsets were derived from, instead of faulting on a null task scheduler.",
+    "Requires Roblox 0.741.0.7411056. If you are on a different build, re-run the install script — it pins the right one.",
+    "The payload now ships as a GitHub release asset rather than an anonymous file host, so the download no longer depends on a third-party host staying up."
   ],
   "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
   "roblox_pin": "0.741.0.7411056"
