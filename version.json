@@ -1,10 +1,11 @@
 {
-  "version": "1.0.34",
-  "build": 135,
+  "version": "1.0.35",
+  "build": 136,
   "notes": [
-    "Updated for Roblox 0.745.0.7451137, with every address re-derived from a fresh dump of that exact client.",
-    "Fixed game detection: the DataModel place id offset was 8 bytes off, so the executor sat at the menu waiting for a game that was already running and scripts never executed.",
-    "The release gate now handles the load-clock check Roblox removed in 0.740 instead of failing on a check that cannot fire.",
+    "New interface: rebuilt from the ground up with a floating workspace, a home screen with build status and activity, and a single settings panel.",
+    "Attach is now reachable from the editor toolbar, the home screen and settings, and live Roblox output streams into the console.",
+    "Settings now cover the executor, AI & MCP, Script Hub (Rscripts key) and update checks in one place.",
+    "New app icon and Riptide branding throughout.",
     "Requires Roblox 0.745.0.7451137. If you are on a different build, re-run the install script — it pins the right one."
   ],
   "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
