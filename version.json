@@ -2,11 +2,11 @@
   "version": "1.0.41",
   "build": 142,
   "notes": [
-    "The app icon is now Riptide's official mark at every macOS size the system asks for \u2014 the whole set, from 16x16 to the 1024 marketing slot.",
+    "The app icon is now Riptide's official mark at every macOS size the system asks for — the whole set, from 16x16 to the 1024 marketing slot.",
     "Roblox's console now streams into Riptide's Output panel: script prints, FLog diagnostics and errors arrive live, with no F9 window to alt-tab to.",
     "Removed the leftover boot-line message from the console.",
-    "Requires Roblox 0.747.0.7471481. If you are on a different build, re-run the install script \u2014 it pins the right one."
+    "Requires Roblox 0.747.0.7471481. If you are on a different build, re-run the install script — it pins the right one."
   ],
-  "installer_url": "https://getriptidetoday.web.app/install.sh",
+  "installer_url": "https://raw.githubusercontent.com/larperiphoneboi/riptide-installer/main/install.sh",
   "roblox_pin": "0.747.0.7471481"
 }
