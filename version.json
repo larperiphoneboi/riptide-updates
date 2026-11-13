@@ -1,13 +1,12 @@
 {
-  "version": "1.0.37",
-  "build": 138,
+  "version": "1.0.41",
+  "build": 142,
   "notes": [
-    "Faster launch: Monaco editor and fonts now ship inside the app instead of loading from a CDN \u2014 no network round-trip before the editor is ready.",
-    "Returning users skip the splash screen entirely; the home screen paints immediately.",
-    "New cornered tab strip, with the same enter/exit, icon-pop and label animations.",
-    "Activity heatmap now paints in idle time, off the critical startup path.",
-    "Requires Roblox 0.745.0.7451137. If you are on a different build, re-run the install script \u2014 it pins the right one."
+    "The app icon is now Riptide's official mark at every macOS size the system asks for \u2014 the whole set, from 16x16 to the 1024 marketing slot.",
+    "Roblox's console now streams into Riptide's Output panel: script prints, FLog diagnostics and errors arrive live, with no F9 window to alt-tab to.",
+    "Removed the leftover boot-line message from the console.",
+    "Requires Roblox 0.747.0.7471481. If you are on a different build, re-run the install script \u2014 it pins the right one."
   ],
   "installer_url": "https://getriptidetoday.web.app/install.sh",
-  "roblox_pin": "0.745.0.7451137"
+  "roblox_pin": "0.747.0.7471481"
 }
