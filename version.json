@@ -1,6 +1,6 @@
 {
-  "version": "1.0.41",
-  "build": 142,
+  "version": "1.0.42",
+  "build": 143,
   "notes": [
     "The app icon is now Riptide's official mark at every macOS size the system asks for — the whole set, from 16x16 to the 1024 marketing slot.",
     "Roblox's console now streams into Riptide's Output panel: script prints, FLog diagnostics and errors arrive live, with no F9 window to alt-tab to.",
